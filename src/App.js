@@ -1,14 +1,11 @@
-import React from 'react';
-// import ActivityGroupForm from './components/ActivityGroupForm';
-import ActivityGroupsPage from './components/ActivityGroupsPage';
-import OneActivityGroupPage from './components/OneActivityGroupPage';
+import './App.css';
+import { TodoWrapper } from './components/TodoWrapper';
 
 function App() {
   return (
-    <div>
-      {/* <ActivityGroupForm /> */}
-      <ActivityGroupsPage />
-      <OneActivityGroupPage />
+    <div className='App'>
+      {/* <TodoWrapper /> */}
+      <TodoWrapper />
     </div>
   );
 }
