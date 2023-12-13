@@ -2,7 +2,7 @@
 
 import axios from 'axios';
 
-const baseURL = 'https://todo-list-api-eta.vercel.app';
+const baseURL = 'https://api.adityaoryza.my.id';
 
 export const getAllActivityGroups = () =>
   axios.get(`${baseURL}/activity-groups`);
